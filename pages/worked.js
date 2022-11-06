@@ -2,10 +2,15 @@ import Petadventures from '../public/petadventures.png';
 import Image from 'next/image';
 import { FiExternalLink } from "react-icons/fi";
 import Link from 'next/link';
+import Head from 'next/head'
 
 const Worked = () => {
     return ( 
         <div id="workedfor" class="h-screen text-teal-400 bg-[#0a192f] flex flex-col justify-start items-start">
+            <Head>
+                <title>Trevor McLaurine</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
              <div class="w-3/5 ml-auto mr-auto mt-10">
                 <div class="text-4xl flex flex-row p-10">
                     <div class="h-[1px] w-3/5 bg-teal-400 mr-5 m-auto"></div>
