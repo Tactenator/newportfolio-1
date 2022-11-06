@@ -665,6 +665,14 @@ video {
   height: 1.5rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-2\/5 {
   width: 40%;
 }
@@ -695,6 +703,10 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .rotate-90 {
@@ -742,6 +754,10 @@ video {
 
 .gap-11 {
   gap: 2.75rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded {
@@ -806,6 +822,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .text-4xl {
@@ -914,12 +934,36 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .sm\:mr-0 {
+    margin-right: 0px;
+  }
+
   .sm\:block {
     display: block;
   }
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:w-2\/5 {
+    width: 40%;
+  }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:items-center {
+    align-items: center;
   }
 
   .sm\:justify-center {

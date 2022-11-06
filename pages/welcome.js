@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 const Welcome = () => {
     return ( 
-        <div id="welcome" class="h-screen bg-[#0a192f]  flex justify-center items-center">
+        <div id="welcome" class="min-h-screen bg-[#0a192f]  flex justify-center items-center overflow-hidden">
             <Head>
                 <title>Trevor McLaurine</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
