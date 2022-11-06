@@ -8,7 +8,7 @@ const About = () => {
     return ( 
         <div id="about" class="h-screen text-slate-100 bg-[#0a192f] flex justify-start items-start sm:justify-center sm:items-center">
             <div class="text-start flex flex-col sm:flex-row">
-                <div class="w-5/5 h-auto rotate-90 sm:w-2/5">
+                <div class="w-5/5 h-auto pt-10 pb-10 rotate-90 sm:w-2/5">
                     <Image src={Me} objectFit="contain" style={{borderRadius: '25px', overflow: 'hidden'}} alt="Issa Me!"></Image>
                 </div>
                 <div class="w-5/5 p-2 sm:w-3/5">
