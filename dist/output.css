@@ -820,6 +820,14 @@ video {
   padding-bottom: 1rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1008,6 +1016,14 @@ video {
 
   .sm\:p-0 {
     padding: 0px;
+  }
+
+  .sm\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .sm\:pr-16 {
+    padding-right: 4rem;
   }
 
   .sm\:text-left {
