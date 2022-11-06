@@ -13,12 +13,12 @@ const Worked = () => {
                     <div class="h-[1px] w-3/5 bg-teal-400 ml-5 m-auto"></div>
                 </div>  
             </div>
-            <div class="w-3/5 ml-auto mr-auto">
-                <div class="flex flex-row">
-                    <div class="h-1/2 w-1/2">
+            <div class="w-5/5 ml-auto mr-auto p-2 sm:p-0 sm:w-3/5">
+                <div class="flex flex-col sm:flex-row">
+                    <div class="h-5/5 w-5/5 sm:h-1/2 sm:w-1/2">
                         <Image src={Petadventures}  alt="Bellevue Pet Adventures Website"></Image>
                     </div>
-                    <article class="w-2/5 ml-20">
+                    <article class="w-5/5 sm:w-2/5 sm:ml-20">
                         <h1 class="text-white text-3xl text-center">
                             Bellevue Pet Adventures
                         </h1>
