@@ -977,6 +977,10 @@ video {
   .sm\:text-center {
     text-align: center;
   }
+
+  .sm\:text-start {
+    text-align: start;
+  }
 }
 
 @media (min-width: 1024px) {

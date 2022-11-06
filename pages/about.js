@@ -16,19 +16,19 @@ const About = () => {
                         <p class="text-white">About me</p>
                         <div class="h-[1px] w-4/5 bg-teal-400 mr-5 sm:ml-5 sm:mr-0"></div>
                     </div>
-                    <div class="text-xl text-left pt-4 w-3/5 text-slate-200">
+                    <div class="text-xl pt-4 w-5/5 text-slate-200 text-center sm:text-left sm:w-3/5">
                          Hello! My name is Trevor McLaurine. I am currently a student at Bellevue University 
                          in Bellevue, Nebraska for my degree in Web Development. I am also a freelance Web Developer
                          looking to help small businesses create the web experience they need for their customers. 
                     </div>
-                    <div class="text-xl text-left pt-4 w-3/5 text-slate-200">
+                    <div class="text-xl pt-4 w-5/5 text-slate-200 text-center sm:text-left sm:w-3/5">
                          When I&apos;m not studying in school or coding, I enjoy relaxing with loved ones, biking, cooking, 
                          or playing a good video game or board game.  
                     </div>
-                    <div class="text-xl text-left pt-4 w-3/5 text-slate-200">
+                    <div class="text-xl pt-4 w-5/5 text-slate-200 text-center sm:text-left sm:w-3/5">
                         I&apos;m always learning! Here&apos;s what I&apos;m learning now:
                     </div>
-                     <div className='flex flex-row mt-10 items-center'> 
+                     <div className='flex flex-row mt-10 items-center justify-center'> 
                             <DiReact className='h-12 w-12'/>
                             <SiExpress className='h-12 w-12'/>
                             <DiMongodb className='h-12 w-12'/>
