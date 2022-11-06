@@ -4,7 +4,7 @@ const Contact = () => {
             <div className="w-3/5 mr-auto ml-auto mt-32 text-center text-5xl text-teal-400">
                 <h1>Let&apos;s Chat</h1>
             </div>
-            <div className="w-3/5 mt-12 pr-16 pl-16 text-center text-2xl text-slate-100 flex">
+            <div className="w-5/5 mt-12 pr-4 pl-4 text-center text-2xl text-slate-100 flex sm:w-3/5 sm:pl-16 sm:pr-16">
                 <form className="mr-auto ml-auto">
                     <div className="mb-4">
                         <label class="block text-white text-2xl font-bold mb-2 text-left" for="name">
