@@ -28,7 +28,7 @@ const About = () => {
                     <div class="text-xl pt-4 w-5/5 text-slate-200 text-center sm:text-left sm:w-3/5">
                         I&apos;m always learning! Here&apos;s what I&apos;m learning now:
                     </div>
-                     <div className='flex flex-row mt-10 items-center justify-center'> 
+                     <div className='flex flex-row mt-10 items-center justify-center sm:justify-start'> 
                             <DiReact className='h-12 w-12'/>
                             <SiExpress className='h-12 w-12'/>
                             <DiMongodb className='h-12 w-12'/>
