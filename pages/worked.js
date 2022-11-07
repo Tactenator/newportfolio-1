@@ -6,7 +6,7 @@ import Head from 'next/head'
 
 const Worked = () => {
     return ( 
-        <div id="workedfor" class="h-screen text-teal-400 bg-[#0a192f] flex flex-col justify-start items-start">
+        <div id="workedfor" class="h-screen pt-96 text-teal-400 bg-[#0a192f] flex flex-col justify-start items-start sm:p-0">
             <Head>
                 <title>Trevor McLaurine</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
