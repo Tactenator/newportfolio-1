@@ -12,11 +12,11 @@ export default function Home() {
           <title>Trevor McLaurine</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Welcome />
-      <About />
-      <Projects />
-      <Worked />
-      <Contact />
+      <Welcome className="h-screen" />
+      <About className="h-screen" />
+      <Projects className="h-screen" />
+      <Worked className="h-screen" />
+      <Contact className="h-screen" />
     </div>
   )
 }
