@@ -1082,6 +1082,10 @@ video {
     padding: 0px;
   }
 
+  .sm\:p-2 {
+    padding: 0.5rem;
+  }
+
   .sm\:pl-16 {
     padding-left: 4rem;
   }
