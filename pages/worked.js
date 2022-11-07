@@ -11,7 +11,7 @@ const Worked = () => {
                 <title>Trevor McLaurine</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-             <div class="w-3/5 ml-auto mr-auto mt-10">
+             <div class="w-5/5 text-center pt-32 mt-10">
                 <div class="text-4xl flex flex-row p-10">
                     <div class="h-[1px] w-3/5 bg-teal-400 mr-5 m-auto"></div>
                     <p class="text-white w-64">Past Work</p>

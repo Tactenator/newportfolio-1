@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const Projects = () => {
     return ( 
-        <div id="projects" class="h-screen pt-48 text-slate-100 bg-[#0a192f] block sm:justify-center sm:items-center p-2 sm:flex sm:flex-col sm:p-0">
+        <div id="projects" class="h-screen pt-48 text-slate-100 bg-[#0a192f] block sm:justify-center sm:items-center sm:flex sm:flex-col sm:p-0">
             <div class="w-5/5 sm:w-3/5">
                 <div class="text-4xl flex flex-row p-10">
                     <div class="h-[1px] w-3/5 bg-teal-400 mr-5 m-auto"></div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         <div class="h-5/5 w-5/5 m-auto sm:h-1/2 sm:w-1/2 sm:m-0 sm:hidden">
                             <Image src={Rock}  alt="Rock, Paper, Scissors, Spock, Lizard Website"></Image>
                         </div>
-                        <div className='flex flex-row mt-10 items-center justify-center sm:justify-end'>
+                        <div className='flex flex-row items-center justify-center sm:justify-end'>
                             <DiHtml5 className='h-12 w-12'/>
                             <DiCss3 className='h-12 w-12'/>
                             <DiJavascript1 className='h-12 w-12'/>
