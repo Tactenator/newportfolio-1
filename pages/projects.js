@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const Projects = () => {
     return ( 
-        <div id="projects" class="h-screen pt-48 text-slate-100 bg-[#0a192f] block sm:justify-center sm:items-center sm:flex sm:flex-col sm:p-0">
+        <div id="projects" class="min-h-screen pt-48 text-slate-100 bg-[#0a192f] block sm:justify-center sm:items-center sm:flex sm:flex-col sm:p-0">
             <div class="w-5/5 sm:w-3/5">
                 <div class="text-4xl flex flex-row p-10">
                     <div class="h-[1px] w-3/5 bg-teal-400 mr-5 m-auto"></div>
