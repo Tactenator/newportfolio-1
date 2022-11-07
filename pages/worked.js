@@ -6,12 +6,12 @@ import Head from 'next/head'
 
 const Worked = () => {
     return ( 
-        <div id="workedfor" class="min-h-screen pt-96 text-teal-400 bg-[#0a192f] flex flex-col justify-start items-start sm:p-0">
+        <div id="workedfor" class="min-h-screen pt-10 text-teal-400 bg-[#0a192f] flex flex-col justify-start items-start sm:p-0">
             <Head>
                 <title>Trevor McLaurine</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-             <div class="w-5/5 text-center mr-auto ml-auto pt-32 mt-10 sm:p-0 sm:w-3/5">
+             <div class="w-5/5 text-center mr-auto ml-auto mt-10 sm:p-0 sm:w-3/5">
                 <div class="text-4xl flex flex-row p-10">
                     <div class="h-[1px] w-3/5 bg-teal-400 mr-5 m-auto"></div>
                     <p class="text-white w-64">Past Work</p>
