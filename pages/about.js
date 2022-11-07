@@ -6,7 +6,7 @@ import { SiExpress, SiThreedotjs } from "react-icons/si";
 
 const About = () => {
     return ( 
-        <div id="about" class="h-screen pb-32 text-slate-100 bg-[#0a192f] block sm:flex sm:justify-center sm:items-center sm:pb-0">
+        <div id="about" class="h-screen text-slate-100 bg-[#0a192f] block sm:flex sm:justify-center sm:items-center sm:pb-0">
             <div class="text-start flex flex-col sm:flex-row">
                 <div class="w-5/5 h-auto pt-10 pb-10 rotate-90 sm:w-2/5 sm:pt-0 sm:pb-0">
                     <Image src={Me} objectFit="contain" style={{borderRadius: '25px', overflow: 'hidden'}} alt="Issa Me!"></Image>
