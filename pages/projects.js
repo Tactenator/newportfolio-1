@@ -35,7 +35,7 @@ const Projects = () => {
                             <DiMongodb className='h-12 w-12'/>
                             <DiNodejs className='h-12 w-12'/>
                             <Link href="https://github.com/Tactenator/chillona"><DiGithubBadge className='h-12 w-12 ml-10 transition ease-in hover:text-teal-400 hover:cursor-pointer'/></Link>
-                            <Link href="#"><FiExternalLink className='h-9 w-9 transition ease-in hover:text-teal-400 hover:cursor-pointer'/></Link>
+                            <Link href="https://merry-zuccutto-7a4b0b.netlify.app/"><FiExternalLink className='h-9 w-9 transition ease-in hover:text-teal-400 hover:cursor-pointer'/></Link>
                         </div>
                     </article>
                 </div>
